@@ -1,0 +1,48 @@
+*,
+::before,
+::after{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  font-size: 30px;
+}
+body{
+  padding: 100px;
+background: linear-gradient(45deg, rgb(101, 140, 148) 0%, rgba(21,21,71,1) 70%, rgba(2,0,36,1) 100%);
+}
+button{
+  width: 150px;
+  padding: 5px ;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background: rgb(62, 216, 62);
+}
+.block{
+  display: flex;
+  justify-content: space-around;
+}
+.block-left{
+  width: 80%;
+  border-radius: 10px;
+  background: rgb(175, 175, 175);
+}
+.block-right{
+  width: 10%;
+}
+ul{
+  padding: 10px;
+}
+li{
+  display: flex;
+  justify-content: space-between;
+}
+li button{
+  background: red;
+}
+span{
+  padding: 15px 0;
+}
